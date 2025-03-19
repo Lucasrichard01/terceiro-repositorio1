@@ -1,15 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-:root{
---cor-principal:#E1002A;
---cor1:#0083f9;
---cor2:#cb0064;
---cor3:#b14ccc;
---preto:#000000;
---branco:#FFFFFF;
+:root {
+    --cor-principal: #E1002A;
+    --cor1: #0083f9;
+    --cor2: #cb0064;
+    --cor3: #b14ccc;
+    --preto: #000000;
+    --branco: #FFFFFF;
 }
 
-body{
-font-size: 1rem;
-font-family: 'Montserrat';/*nome da sua fonte*/
+body {
+    font-size: 1rem;
+    font-family: 'Montserrat';
+    /*nome da sua fonte*/
+}
+
+#contato background: var(--cor-principal);
+background-size: cover;
+padding: 4rem 0;
+}
+
+.formulario {
+    background-color: var(--branco);
+    padding: 2rem;
+    border-radius: 10px;
+box-shadow: 0 0 10px ;
+
+
 }
