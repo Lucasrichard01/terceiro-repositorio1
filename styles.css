@@ -15,6 +15,35 @@ body {
     /*nome da sua fonte*/
 }
 
+section {
+    padding-bottom: 5rem;
+}
+
+.display-4 {
+    text-shadow: -5px 5px var(--cor3);
+}
+
+#classicos {
+    pasition: relative;
+    padding-top: 5rem;
+    margin-top: 3rem;
+    background: var(--cor1) ;
+    background-size: 180px 180px; 
+}
+    #classicos .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relatve;
+    }
+
+
+
+
+
+
+
+
 #contato {
     background: var(--cor-principal);
     background-size: cover;
