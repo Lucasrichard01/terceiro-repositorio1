@@ -35,6 +35,7 @@ section {
         align-items: center;
         justify-content: center;
         position: relatve;
+        z-index: 1;
     }
 
 
