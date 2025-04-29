@@ -8,4 +8,9 @@ document.addEventListener('DOMContentLoaded', function () {
         
 
     })
+
+
+const aumentaFonteBotao = document.getElementById('aumentae-fonte');
+const diminuiFonteBotao =document.getElementById
+
 })
